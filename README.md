@@ -16,7 +16,6 @@ This script uses `settings.ini` file to get mapping of netbox items to their id.
 CentoOS7 only
 
 ```bash
-sudo su 
 git clone https://github.com/tiny-rick1/cloudstack_netbox_sync.git
 cd cloudstack_netbox_sync
 sudo bash install.sh
