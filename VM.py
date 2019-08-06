@@ -182,7 +182,7 @@ class VM:
         :return:
         """
         #example:
-        # if self.nb_vm.cluster == self.config['NETBOX_ID_MAPPING']['private']:
+        # if if self.cluster == self.config['NETBOX_ID_MAPPING']['private']:
         #     if self.status:
         #         self.nb_vm.custom_fields['parent'] = self.node
         #         self.nb_vm.custom_fields['icinga import'] = True
