@@ -23,11 +23,13 @@ sudo bash install.sh
 ```
 ## Usage
 by hand
+
 `[root@host ~]# cloudstack_netbox_sync`
 
 or as cron job
 
-`echo '0 0 * * * /usr/local/bin/cloudstack_netbox_sync' > /etc/cron.d/cs_nb_sync 
+`echo '0 0 * * * /usr/local/bin/cloudstack_netbox_sync' > /etc/cron.d/cs_nb_sync `
+
 ## ToDo
 * add logging
 * add support for command line parameters
