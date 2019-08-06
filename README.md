@@ -10,7 +10,8 @@ Script for synchronizing cloudstack virtual machines to netbox via REST api.
 6. When loop is ended cleanup is performed, removin virtual machines from netbox that are no longer present in Cloudstack.
 
 ## Comments
-This script uses `settings.ini` file to get mapping of netbox items to their id. Id's in netbox are created when objects are created, so if you intend to use this script you have to retrive them, the easyiest way is to use netbox API browser https://your.netbox.host/api/docs. If you are planing on using `custom_filed` please check VM private method `__set_custom_fields`
+This script uses `settings.ini` file to get mapping of netbox items to their id. Id's in netbox are created when objects are created, so if you intend to use this script you have to retrive them.
+The easyiest way is to use netbox API browser `https://your.netbox.host/api/docs`. If you are planing on using `custom_filed` please check VM private method `__set_custom_fields`
 
 ## Install
 CentoOS7 only
