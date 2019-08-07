@@ -49,7 +49,7 @@ def clean_netbox(cs_connection,nb_connection,config):
 def main():
     # load settings form settings.ini file
     config = ConfigParser()
-    config.read('settings.ini')
+    config.read('/usr/local/cloudstack_netbox_sync/settings.ini')
     # Conection to netbox and cloudstack API
     nb_connection = pynetbox.api(config['NETBOX_CONNECTION']['url'],
                                  token=config['NETBOX_CONNECTION']['token'])
