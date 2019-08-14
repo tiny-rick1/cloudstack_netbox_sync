@@ -4,7 +4,7 @@ Script for synchronizing cloudstack virtual machines to netbox via REST api.
 ## Workflow
 1. Read settings file `settings.ini`
 2. Create connections to netbox and Cloudstack API's
-3. Script iterates through every Cloudstack virtual machine in every project except 'default`
+3. Script iterates through every Cloudstack virtual machine in every project except `default`
 4. for every virtual machine from cloudstack VM object is created
 5. VM object value `is_ipmorted`is check, if `False` fails virtual machine is imported to netbox, if `True` update is performed.
 6. When loop is ended cleanup is performed, removin virtual machines from netbox that are no longer present in Cloudstack.
