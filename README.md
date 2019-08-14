@@ -20,6 +20,12 @@ git clone https://github.com/tiny-rick1/cloudstack_netbox_sync.git
 cd cloudstack_netbox_sync
 sudo bash install.sh
 ```
+## Usage
+Simply run `cloudstack_netbox_sync` or run is as cron job
+
+```bash
+sudo echo "0 0 * * * /usr/local/bin/cloudstack_netbox_sync" > /etc/cron.d/sync
+```
 
 ## ToDo
 * add logging
